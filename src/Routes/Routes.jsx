@@ -15,7 +15,9 @@ const router = createBrowserRouter(
                 },
                 {
                     path : '/category/:id',
-                    element :<CategoryNews></CategoryNews>
+                    element :<CategoryNews></CategoryNews>,
+                    loader : () =>fetch('/news.json')
+                    
                 }
             ]
         },
@@ -31,6 +33,7 @@ const router = createBrowserRouter(
             path : '/*',
             element : <h2>error 404</h2>
         },
+       
     ]
 )
  export default router ;
