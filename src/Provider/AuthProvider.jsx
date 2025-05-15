@@ -1,44 +1,48 @@
 import React, { createContext, useEffect, useState } from 'react';
 import app from '../firebase/firebase.init';
-export  const AuthContext = createContext();
-import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
+export const AuthContext = createContext();
+import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
 
 const auth = getAuth(app);
-const AuthProvider = ({children}) => {
-    const [user ,setUser] =useState(null)
-    console.log(user);
-    
+const AuthProvider = ({ children }) => {
+    const [user, setUser] = useState(null)
+    const [loading , setLoading] = useState(true);
 
-    const createUser =(email , password) =>{
-        return createUserWithEmailAndPassword(auth , email , password);
+    const createUser = (email, password) => {
+        return createUserWithEmailAndPassword(auth, email, password);
     }
-    useEffect(()=>{
-      const unsubscribe =  onAuthStateChanged(auth , (currentUser)=>{
-        setUser(currentUser);
-        return ()=>{
-            unsubscribe();
-        }
-      })
-    })
-    const logOut = () =>{
-       return signOut(auth)
+    useEffect(() => {
+        const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
+            setUser(currentUser);
+            setLoading(false);
+        });
+        return () => unsubscribe();
+    }, []);
+    const logOut = () => {
+        return signOut(auth)
     }
-    const signIn = (email , password) =>{
-        return signInWithEmailAndPassword(auth , email , password)
+    const signIn = (email, password) => {
+        return signInWithEmailAndPassword(auth, email, password)
+    }
+    const updateUser = (updatedData) =>{
+        return updateProfile(auth.currentUser , updatedData)
     }
 
     const authData = {
-        user ,
-        setUser ,
+        user,
+        setUser,
         createUser,
-        logOut ,
-        signIn
+        logOut,
+        signIn ,
+        loading ,
+        setLoading
+
     }
     return <AuthContext value={authData}>
         {children}
-    </AuthContext>
-       
-   
+    </AuthContext>;
+
+
 };
 
 export default AuthProvider;
