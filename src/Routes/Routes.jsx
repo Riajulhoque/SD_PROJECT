@@ -9,6 +9,10 @@ import AuthLayouts from "../Layouts/AuthLayouts";
 import PrivateRoute from "../Provider/PrivateRoute";
 import NewsDetails from "../Components/NewsDetails";
 import Loading from "../Components/Pages/Loading";
+import AboutUs from "../Components/Pages/AboutUs";
+import Career from "../Components/Pages/Career";
+import Error from "../Components/Pages/error/error";
+
 
 const router = createBrowserRouter(
     [
@@ -29,6 +33,14 @@ const router = createBrowserRouter(
 
                 }
             ]
+        },
+        {
+            path:'/aboutUs',
+            element:<AboutUs></AboutUs>
+        },
+        {
+            path:'/career',
+            element:<Career></Career>
         },
         {
             path : '/auth',
@@ -54,7 +66,7 @@ const router = createBrowserRouter(
         },
         {
             path : '/*',
-            element : <h2>error 404</h2>
+            element : <Error></Error>
         },
        
     ]

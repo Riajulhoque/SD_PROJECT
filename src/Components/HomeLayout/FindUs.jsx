@@ -3,11 +3,11 @@ import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const FindUs = () => {
     return (
-        <div>
+        <div className='items-center text-center'>
             <h2 className='font-bold mb-5 '>Find US on</h2>
            <div>
-             <div className="join join-vertical w-full">
-                <button className="btn bg-base-100 justify-start join-item"><FaFacebook></FaFacebook> Facebook</button>
+             <div className="join join-vertical w-full text-center ">
+                <button className="btn bg-base-100 justify-start join-item text-center"><FaFacebook></FaFacebook> Facebook</button>
                 <button className="btn bg-base-100 justify-start join-item"><FaTwitter></FaTwitter>Twitter</button>
                 <button className="btn bg-base-100 justify-start join-item"><FaInstagram></FaInstagram>Instagram</button>
             </div>

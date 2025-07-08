@@ -4,6 +4,7 @@ export const AuthContext = createContext();
 import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
 
 const auth = getAuth(app);
+
 const AuthProvider = ({ children }) => {
     const [user, setUser] = useState(null)
     const [loading , setLoading] = useState(true);

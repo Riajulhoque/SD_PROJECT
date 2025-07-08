@@ -21,13 +21,13 @@ const HomeLayouts = () => {
                 </nav>
             </header>
             <main className='w-11/12 mx-auto my-3  grid grid-cols-12 gap-5'>
-                <aside className='col-span-3 sticky top-0 self-start'>
+                <aside className='col-span-2 sticky top-0 self-start flex [@media(max-width:700px)]:hidden'>
                     <LeftAside></LeftAside>
                 </aside>
-                <section className='main col-span-6'>
+                <section className='main col-span-7 [@media(max-width:640px)]:col-span-11 [@media(max-width:700px)]:col-span-9'>
                    {state == 'loading'? <Loading></Loading> : <Outlet></Outlet>} 
                 </section>
-                <aside className='col-span-3 sticky top-0 self-start'>
+                <aside className='col-span-3 sticky top-0 self-start flex [@media(max-width:640px)]:hidden'>
                     <RightAside></RightAside>
                 </aside>
                 

@@ -21,3 +21,6 @@
 a.active{
   @apply bg-base-300
 }
+.slick-slide > div {
+  margin: 0 10 ;
+}

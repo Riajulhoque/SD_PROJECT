@@ -2,6 +2,7 @@ import { FaStar, FaEye } from 'react-icons/fa';
 import { BsBookmark, BsShare } from 'react-icons/bs';
 import { Link } from 'react-router';
 
+
 const NewsCard = ({ news }) => {
   const {
     id ,
@@ -25,14 +26,14 @@ const NewsCard = ({ news }) => {
       {/* Header */}
       <div className="flex justify-between bg-base-200 items-center px-4 pt-4">
         <div className="flex items-center gap-3">
-          <img src={author.img} alt={author.name} className="w-10 h-10 rounded-full" />
+          {/* <img src={author.img} alt={author.name} className="w-10 h-10 rounded-full" /> */}
           <div>
-            <h2 className="font-semibold">{author.name}</h2>
-            <p className="text-sm text-gray-500">{formattedDate}</p>
+            {/* <h2 className="font-semibold">{author.name}</h2> */}
+            <p className="text-sm p-3 text-gray-500">{formattedDate}</p>
           </div>
         </div>
         <div className="flex gap-2 text-gray-500 text-lg">
-          <BsBookmark className="cursor-pointer" />
+          {/* <BsBookmark className="cursor-pointer" /> */}
           <BsShare className="cursor-pointer" />
         </div>
       </div>
@@ -59,17 +60,24 @@ const NewsCard = ({ news }) => {
       </div>
 
       {/* Footer */}
-      <div className="flex justify-between items-center px-4 pb-4">
-        <div className="flex items-center text-orange-400 gap-1">
+      <div className="flex justify-between items-center px-4 pt-10 pb-4">
+        <div className="flex col-span-7 items-center text-orange-400 gap-1">
           {[...Array(5)].map((_, i) => (
             <FaStar key={i} className={i < rating.number ? '' : 'text-gray-300'} />
           ))}
           <span className="ml-1 text-gray-700 font-medium">{rating.number}</span>
         </div>
-        <div className="flex items-center gap-1 text-gray-500">
+        {/* <div className="savebutton flex items-end">
+          <button className=''><BsBookmark className="cursor-pointer" /></button>
+        </div> */}
+        <div className="flex col-span-4 items-center gap-1 text-gray-500">
           <FaEye />
           <span>{total_view}</span>
+          <div className="savebutton">
+            <BsBookmark className="cursor-pointer" />
+            </div>
         </div>
+
       </div>
     </div>
   );
