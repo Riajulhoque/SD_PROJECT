@@ -11,7 +11,6 @@ import SponsoredArticlePromotions from "../../assets/SponsoredArticlePromotions.
 import AffiliateMarketing from "../../assets/AffiliateMarketing.jpg"
 import Sponsored from "../../assets/Sponsored.jpg"
 import safin from "../../assets/Safin.jpg"
-import jasem from "../../assets/Jasem.jpg"
 import safat from "../../assets/Safat.jpg"
 import shuvo from "../../assets/Shuvo.jpg"
 import jasems from "../../assets/jasems.jpg"
