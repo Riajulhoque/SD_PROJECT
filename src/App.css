@@ -31,3 +31,37 @@
     margin: 20px 0;
     display: inline-block;}
 .contant_box_404{ margin-top:-50px;}
+
+.NavberHover{
+    a{
+        border-radius: 8px;
+        padding: 6px 14px;
+        &:hover {
+            background-color: #D72050;
+            color: white;
+        }
+    }
+}
+@media (max-width: 580px) {
+  .AboutUS {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+@media (max-width: 770px) {
+    .AboutUS{
+        .info{
+            h2{
+              align-items: center;
+              margin: auto;
+              font-size: 18px ;
+             
+            }
+            h3{
+                font-size: 15px ;
+            }
+        }
+    }
+  
+  
+}

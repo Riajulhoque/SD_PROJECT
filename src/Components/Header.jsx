@@ -6,7 +6,7 @@ const Header = () => {
         <div className='flex justify-center flex-col items-center'>
            <img className='w-[400px]' src={logo} alt="" />
            <p className='text-accent'>Journalism Without Fear or Favour</p>
-           <p className='font-semibold text-accent'>{format(new Date() ,"EEEE , MMMM MM , yyyy ")}</p>
+           <p className='font-semibold text-accent'>{format(new Date() ,"EEEE , MMMM dd , yyyy ")}</p> 
            <p className='font-semibold text-accent'>Time : {format(new Date() ," h : m :s")}</p>
         </div>
     );

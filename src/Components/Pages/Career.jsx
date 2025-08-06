@@ -7,6 +7,7 @@ import CBanner from '../../CarrerPage/CBanner';
 import FeaturedCompanies from '../../CarrerPage/FeaturedCompanies';
 import SuccessStorys from '../../CarrerPage/SuccessStorys';
 import GreatOpportunity from '../../CarrerPage/GreatOpportunity';
+import jobCounter from '../../CarrerPage/jobCounter';
 
 const Career = () => {
   const {state} = useNavigation()
@@ -20,6 +21,7 @@ const Career = () => {
             </header>
             <CNavber></CNavber>
             <CBanner></CBanner>
+            <jobCounter></jobCounter>
             <FeaturedCompanies></FeaturedCompanies>
             <SuccessStorys></SuccessStorys>
             <GreatOpportunity></GreatOpportunity>
