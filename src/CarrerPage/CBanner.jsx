@@ -1,5 +1,6 @@
 import React from 'react';
 import CarrerBanner from "../../src/assets/CarrerBanner.png"
+
 const CBanner = () => {
   return (
     <div>

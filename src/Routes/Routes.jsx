@@ -12,7 +12,10 @@ import Loading from "../Components/Pages/Loading";
 import AboutUs from "../Components/Pages/AboutUs";
 import Career from "../Components/Pages/Career";
 import Error from "../Components/Pages/error/error";
-
+import findJob from "../CarrerPage/findJobPage";
+import BookList from "../CarrerPage/BookList";
+import PreparationGuideline from "../CarrerPage/PreparationGuideline";
+import FindJobBanner from "../CarrerPage/FindJobs/FindJobsBanner";
 
 const router = createBrowserRouter(
     [
@@ -40,7 +43,15 @@ const router = createBrowserRouter(
         },
         {
             path:'/career',
-            element:<Career></Career>
+            element:<Career></Career>,
+        },
+        {
+            path : '/preparationGuideline',
+            element : <PreparationGuideline></PreparationGuideline>
+        },
+        {
+            path:'/FindJobBanner',
+            element:<FindJobBanner></FindJobBanner>
         },
         {
             path : '/auth',

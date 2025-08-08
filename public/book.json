@@ -1,0 +1,182 @@
+[
+  {
+    "bookName": "Mastering the Job Interview",
+    "writerName": "David Green",
+    "price": 500,
+    "discountPrice": 350
+  },
+  {
+    "bookName": "Aptitude Test Success Guide",
+    "writerName": "Sarah Mitchell",
+    "price": 450,
+    "discountPrice": 300
+  },
+  {
+    "bookName": "Resume Writing Made Easy",
+    "writerName": "Michael Harper",
+    "price": 400,
+    "discountPrice": 280
+  },
+  {
+    "bookName": "Public Service Exam Preparation",
+    "writerName": "John Anderson",
+    "price": 550,
+    "discountPrice": 400
+  },
+  {
+    "bookName": "The Ultimate Career Handbook",
+    "writerName": "Olivia Bennett",
+    "price": 600,
+    "discountPrice": 420
+  },
+  {
+    "bookName": "Math for Competitive Exams",
+    "writerName": "Robert Hughes",
+    "price": 480,
+    "discountPrice": 350
+  },
+  {
+    "bookName": "English for Job Seekers",
+    "writerName": "Emma Parker",
+    "price": 420,
+    "discountPrice": 300
+  },
+  {
+    "bookName": "IQ & Logical Reasoning Booster",
+    "writerName": "Daniel Scott",
+    "price": 530,
+    "discountPrice": 390
+  },
+  {
+    "bookName": "Bangladesh Bank Job Preparation",
+    "writerName": "Mahmud Hasan",
+    "price": 500,
+    "discountPrice": 370
+  },
+  {
+    "bookName": "Government Job Exam Secrets",
+    "writerName": "Shahidul Islam",
+    "price": 580,
+    "discountPrice": 420
+  },
+  {
+    "bookName": "Critical Thinking Skills",
+    "writerName": "Sophia White",
+    "price": 460,
+    "discountPrice": 340
+  },
+  {
+    "bookName": "Professional Email & Communication",
+    "writerName": "Anthony Rivera",
+    "price": 400,
+    "discountPrice": 290
+  },
+  {
+    "bookName": "Bank Recruitment Test Guide",
+    "writerName": "Nurul Amin",
+    "price": 530,
+    "discountPrice": 400
+  },
+  {
+    "bookName": "Corporate Job Entry Preparation",
+    "writerName": "Karim Hossain",
+    "price": 560,
+    "discountPrice": 410
+  },
+  {
+    "bookName": "Technical Interview Questions & Answers",
+    "writerName": "Linda Foster",
+    "price": 620,
+    "discountPrice": 450
+  },
+  {
+    "bookName": "SSC & HSC Level Job Exams",
+    "writerName": "Abdul Rahman",
+    "price": 480,
+    "discountPrice": 350
+  },
+  {
+    "bookName": "MCQ Master for Competitive Exams",
+    "writerName": "Kamal Uddin",
+    "price": 500,
+    "discountPrice": 370
+  },
+  {
+    "bookName": "Job Market Survival Skills",
+    "writerName": "Patricia Ward",
+    "price": 450,
+    "discountPrice": 320
+  },
+  {
+    "bookName": "Interview Confidence & Body Language",
+    "writerName": "James Brooks",
+    "price": 530,
+    "discountPrice": 390
+  },
+  {
+    "bookName": "Civil Service Exam Guide",
+    "writerName": "Hasan Mahmud",
+    "price": 600,
+    "discountPrice": 450
+  },
+  {
+    "bookName": "Company-Specific Recruitment Tests",
+    "writerName": "Tanvir Ahmed",
+    "price": 550,
+    "discountPrice": 420
+  },
+  {
+    "bookName": "Problem Solving & Puzzles",
+    "writerName": "Edward Collins",
+    "price": 470,
+    "discountPrice": 350
+  },
+  {
+    "bookName": "General Knowledge 2025 Edition",
+    "writerName": "Rafiqul Islam",
+    "price": 490,
+    "discountPrice": 360
+  },
+  {
+    "bookName": "Campus to Corporate",
+    "writerName": "Israt Jahan",
+    "price": 530,
+    "discountPrice": 390
+  },
+  {
+    "bookName": "ICT for Competitive Exams",
+    "writerName": "Shamim Hossain",
+    "price": 510,
+    "discountPrice": 380
+  },
+  {
+    "bookName": "Career Development for Graduates",
+    "writerName": "Rachel Thomas",
+    "price": 580,
+    "discountPrice": 430
+  },
+  {
+    "bookName": "Math Tricks for Fast Solving",
+    "writerName": "Iqbal Hossain",
+    "price": 450,
+    "discountPrice": 320
+  },
+  {
+    "bookName": "English Vocabulary for Competitive Exams",
+    "writerName": "Farzana Yasmin",
+    "price": 420,
+    "discountPrice": 300
+  },
+  {
+    "bookName": "1001 Practice Questions",
+    "writerName": "Imran Kabir",
+    "price": 500,
+    "discountPrice": 370
+  },
+  {
+    "bookName": "Time Management for Job Seekers",
+    "writerName": "Nusrat Chowdhury",
+    "price": 470,
+    "discountPrice": 340
+  }
+]

@@ -59,7 +59,7 @@ const AboutUs = () => {
             <img src={safin} alt="Safin image" className='h-70 rounded-xl' />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Md. Safin Hossain <div className="badge badge-secondary">C233157</div>
+            <h2 className="card-title">Md. Safin Hossain <div className="badge badge-secondary">C233161</div>
             </h2><p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
             <div className="card-actions justify-end mt-7">
               <div className="badge badge-outline btn hover:bg-secondary hover:text-white"><IoCall/></div>
@@ -217,38 +217,36 @@ const AboutUs = () => {
             </div>
             <ul className="mt-6 flex flex-col gap-2 text-xs">
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Access to Daily News</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Popular & Trending News</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Daily Email Digest</span>
+              </li>
+                <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+              <span className="line-through"> Limited Career Page Access</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through"> Ad-Free Reading Experience</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through"> Full Access to Career Page</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through">Comment & Save Your Favorite News</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through">Advanced Job Search</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through">Job Guidelines & Career Resources</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through">Interview Preparation Materials</span>
               </li>
-              <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
-              </li>
-              <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
-              </li>
+              
             </ul>
             <div className="mt-6">
               <button className="btn badge hover:badge-warning hover:text-white badge-secondary mt-7 p-5 btn-block">Subscribe</button>
@@ -265,38 +263,36 @@ const AboutUs = () => {
             </div>
             <ul className="mt-6 flex flex-col gap-2 text-xs">
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Access to Daily News</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Popular & Trending News</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Daily Email Digest</span>
+              </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+              <span>Limited Career Page Access</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
-              </li>
-              <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Ad-Free Reading Experience</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through"> Full Access to Career Page</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through">Comment & Save Your Favorite News</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through">Advanced Job Search</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through">Job Guidelines & Career Resources</span>
               </li>
               <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
+              <span className="line-through">Interview Preparation Materials</span>
               </li>
-              <li className="opacity-50"><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-base-content/50" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span className="line-through">Real-time collaboration tools</span>
-              </li>
+              
             </ul>
             <div className="mt-6">
               <button className="btn badge badge-secondary mt-7 p-5 btn-block">Subscribe</button>
@@ -313,34 +309,34 @@ const AboutUs = () => {
             </div>
             <ul className="mt-6 flex flex-col gap-2 text-xs">
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Access to Daily News</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Popular & Trending News</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Daily Email Digest</span>
+              </li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+              <span>Limited Career Page Access</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Ad-Free Reading Experience</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Full Access to Career Page</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Comment & Save Your Favorite News</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Advanced Job Search</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Job Guidelines & Career Resources</span>
               </li>
               <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
-              </li>
-              <li><svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-success" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-              <span>High-resolution image generation</span>
+              <span>Interview Preparation Materials</span>
               </li>
             </ul>
             <div className="mt-6">

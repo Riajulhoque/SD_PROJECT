@@ -27,6 +27,7 @@ const Register = () => {
             const user = result.user;
             updateUser({displayName : name ,photoURL : photo}).then(()=>{
                 setUser({...user ,displayName : name ,photoURL : photo})
+                alert('Registetion successfully');
                 navigate('/');
             })
             .catch((error)=>{

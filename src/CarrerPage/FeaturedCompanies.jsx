@@ -7,6 +7,11 @@ import Company2 from '../assets/Company2.jpg'
 import Company3 from '../assets/Company3.jpg'
 import Company6 from '../assets/Company6.jpg'
 import Company5 from '../assets/Company5.jpg'
+import GreenByteCompany from '../assets/GreenByteCompany.png'
+import BroCode from '../assets/BroCode.png'
+import TechNovaCompany from '../assets/TechNovaCompany.png'
+import PixelMatrixCompany from '../assets/PixelMatrixCompany.png'
+import DataWiseCompany from '../assets/DataWiseCompany.png'
 
 
 // import React, { Component } from "react";
@@ -15,14 +20,15 @@ import Slider from "react-slick";
 
 const FeaturedCompanies = () => {
    const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
     autoplaySpeed: 2000,
-    cssEase: "linear"
+    cssEase: "linear",
+    
   };
   
   return (
@@ -40,21 +46,23 @@ const FeaturedCompanies = () => {
           </figure>
           <div className="card-body">
             <div className="companyInfo flex justify-between">
-              <div className="image w-15 h-15"></div>
+              <div className="image w-15 h-15 shadow-md rounded-xl ">
+                <a href=""> <img className='rounded-xl' src={TechNovaCompany} alt="" /></a>
+              </div>
               <div className="name"> 
-                <div className="companyName rounded-xl"><a href=""><h2 className="card-title"> Company </h2></a></div>
-                <div className="place"><p>Company Place</p></div>
+                <div className="companyName rounded-xl"><a href=""><h2 className="card-title"> TechNova Ltd. </h2></a></div>
+                <div className="place"><p>Dhaka, Bangladesh</p></div>
               </div>
               <div className="icon w-10 h-10 ">
                 <img src={authentic} alt="" />
               </div>
 
             </div>
-            <h2 className="card-title"> Job Title <div className="badge badge-secondary">NEW</div> </h2>
-            <p>Job details</p>
+            <h2 className="card-title"> Front-End Web Developer <div className="badge badge-secondary">NEW</div> </h2>
+            <p>We are seeking a passionate web developer with expertise in HTML, CSS, and React.</p>
             <div className="card-actions justify-between pt-10">
-              <div className="badge badge-outline rounded-xl badge-secondary btn p-5"><h2>View Jobs</h2></div>
-              <div className="badge badge-outline rounded-xl badge-secondary btn p-5">View Company</div>
+              <div className="badge badge-outline rounded-xl badge-secondary btn p-5 hover:bg-secondary hover:text-white"><h2>More Jobs</h2></div>
+              <div className="badge badge-outline rounded-xl badge-secondary btn p-5 hover:bg-secondary hover:text-white">View Company</div>
             </div>
           </div>
         </div>
@@ -64,21 +72,23 @@ const FeaturedCompanies = () => {
           </figure>
           <div className="card-body">
             <div className="companyInfo flex justify-between">
-              <div className="image w-15 h-15"></div>
+              <div className="image w-15 h-15 shadow-md rounded-xl ">
+                <a href=""> <img className='rounded-xl' src={GreenByteCompany} alt="" /></a>
+              </div>
               <div className="name"> 
-                <div className="companyName"><h2 className="card-title"> Company Name </h2></div>
-                <div className="place"><p>Company Place</p></div>
+                <div className="companyName"><h2 className="card-title"> GreenByte Solutions	 </h2></div>
+                <div className="place"><p>Chittagong</p></div>
               </div>
               <div className="icon w-10 h-10 ">
                 <img src={authentic} alt="" />
               </div>
 
             </div>
-            <h2 className="card-title"> Job Title <div className="badge badge-secondary">NEW</div> </h2>
-            <p>Job details</p>
+            <h2 className="card-title"> Graphic Designer <div className="badge badge-secondary">NEW</div> </h2>
+            <p>Design social media posts, website banners, and logos using Adobe tools.</p>
             <div className="card-actions justify-between pt-10">
-              <div className="badge badge-outline rounded-xl badge-secondary btn p-5"><h2>View Jobs</h2></div>
-              <div className="badge badge-outline rounded-xl badge-secondary btn p-5">View Company</div>
+              <div className="badge badge-outline rounded-xl badge-secondary btn p-5 hover:bg-secondary hover:text-white"><h2>More Jobs</h2></div>
+              <div className="badge badge-outline rounded-xl badge-secondary btn p-5 hover:bg-secondary hover:text-white">View Company</div>
             </div>
           </div>
         </div>
@@ -88,21 +98,23 @@ const FeaturedCompanies = () => {
           </figure>
           <div className="card-body">
             <div className="companyInfo flex justify-between">
-              <div className="image w-15 h-15"></div>
+              <div className="image w-15 h-15 shadow-md rounded-xl ">
+                <a href=""> <img className='rounded-xl' src={BroCode} alt="" /></a>
+              </div>
               <div className="name"> 
-                <div className="companyName"><h2 className="card-title"> Company Name </h2></div>
-                <div className="place"><p>Company Place</p></div>
+                <div className="companyName"><h2 className="card-title"> BroCode Agency </h2></div>
+                <div className="place"><p>Sylhet</p></div>
               </div>
               <div className="icon w-10 h-10 ">
                 <img src={authentic} alt="" />
               </div>
 
             </div>
-            <h2 className="card-title"> Job Title <div className="badge badge-secondary">NEW</div> </h2>
-            <p>Job details</p>
+            <h2 className="card-title"> Junior Software Engineer <div className="badge badge-secondary">NEW</div> </h2>
+            <p>Entry-level developer needed with knowledge of Java or Python.</p>
             <div className="card-actions justify-between pt-10">
-              <div className="badge badge-outline rounded-xl badge-secondary btn p-5"><h2>View Jobs</h2></div>
-              <div className="badge badge-outline rounded-xl badge-secondary btn p-5">View Company</div>
+              <div className="badge badge-outline rounded-xl badge-secondary btn p-5 hover:bg-secondary hover:text-white"><h2>More Jobs</h2></div>
+              <div className="badge badge-outline rounded-xl badge-secondary btn p-5 hover:bg-secondary hover:text-white">View Company</div>
             </div>
           </div>
         </div>
@@ -112,21 +124,23 @@ const FeaturedCompanies = () => {
           </figure>
           <div className="card-body">
             <div className="companyInfo flex justify-between">
-              <div className="image w-15 h-15"></div>
+              <div className="image w-15 h-15 shadow-md rounded-xl ">
+                <a href=""> <img className='rounded-xl' src={GreenByteCompany} alt="" /></a>
+              </div>
               <div className="name"> 
-                <div className="companyName"><h2 className="card-title"> Company Name </h2></div>
-                <div className="place"><p>Company Place</p></div>
+                <div className="companyName"><h2 className="card-title"> PixelMatrix Studio </h2></div>
+                <div className="place"><p>Rajshahi</p></div>
               </div>
               <div className="icon w-10 h-10 ">
                 <img src={authentic} alt="" />
               </div>
 
             </div>
-            <h2 className="card-title"> Job Title <div className="badge badge-secondary">NEW</div> </h2>
-            <p>Job details</p>
+            <h2 className="card-title"> UI/UX Designer <div className="badge badge-secondary">NEW</div> </h2>
+            <p>Create mobile and web UI designs in Figma with strong UX understanding.</p>
             <div className="card-actions justify-between pt-10">
-              <div className="badge badge-outline rounded-xl badge-secondary btn p-5"><h2>View Jobs</h2></div>
-              <div className="badge badge-outline rounded-xl badge-secondary btn p-5">View Company</div>
+              <div className="badge badge-outline rounded-xl badge-secondary btn p-5 hover:bg-secondary hover:text-white"><h2>More Jobs</h2></div>
+              <div className="badge badge-outline rounded-xl badge-secondary btn p-5 hover:bg-secondary hover:text-white">View Company</div>
             </div>
           </div>
         </div>
@@ -136,21 +150,23 @@ const FeaturedCompanies = () => {
           </figure>
           <div className="card-body">
             <div className="companyInfo flex justify-between">
-              <div className="image w-15 h-15"></div>
+              <div className="image w-15 h-15 shadow-md rounded-xl ">
+                <a href=""> <img className='rounded-xl' src={DataWiseCompany} alt="" /></a>
+              </div>
               <div className="name"> 
-                <div className="companyName"><h2 className="card-title"> Company Name </h2></div>
-                <div className="place"><p>Company Place</p></div>
+                <div className="companyName"><h2 className="card-title"> DataWise Analytics </h2></div>
+                <div className="place"><p>Dhaka</p></div>
               </div>
               <div className="icon w-10 h-10 ">
                 <img src={authentic} alt="" />
               </div>
 
             </div>
-            <h2 className="card-title"> Job Title <div className="badge badge-secondary">NEW</div> </h2>
-            <p>Job details</p>
+            <h2 className="card-title"> Data Analyst Intern <div className="badge badge-secondary">NEW</div> </h2>
+            <p>Assist in collecting, cleaning, and analyzing data using Excel and Power BI.</p>
             <div className="card-actions justify-between pt-10">
-              <div className="badge badge-outline rounded-xl badge-secondary btn p-5"><h2>View Jobs</h2></div>
-              <div className="badge badge-outline rounded-xl badge-secondary btn p-5">View Company</div>
+              <div className="badge badge-outline rounded-xl badge-secondary btn p-5 hover:bg-secondary hover:text-white"><h2>More Jobs</h2></div>
+              <div className="badge badge-outline rounded-xl badge-secondary btn p-5 hover:bg-secondary hover:text-white">View Company</div>
             </div>
           </div>
         </div>
